@@ -14,14 +14,31 @@
 // Repeat("Ha!", 2) //Ha!Ha!
 // Repeat("Ha!", 3) //Ha!Ha!Ha!
 
-function repeat(word,count){
-    let result = '';
-    for(i=0; i<count ; i++){
+// function repeat(word,count){
+//     let result = '';
+//     for(let i=0; i<count ; i++){
         
-       result += word
+//        result += word
 
-    }
-    console.log(result)
+//     }
+//     console.log(result)
 
-} 
-repeat('ha',3)
+// } 
+// repeat('ha',3)
+
+
+
+// 4) Bir method olsun göndərilən "n" sayda ədədin hamsını toplayıb geri qaytarsın.
+
+// function sum() {
+//   result = 0;
+//   for (let i = 0; i < arguments.length; i++) {
+//     result += arguments[i];
+    
+//   }
+
+//   return result;
+// }
+
+
+// console.log(sum(10,20,30,30,10))
